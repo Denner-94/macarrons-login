@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/login.css">
+    <link rel="stylesheet" href="estilo/devices.css">
+    <script src="https://kit.fontawesome.com/24a9a552ee.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon_io (1)/favicon.ico" type="image/x-icon">
+    <title>Macarrons/Login</title>
+</head>
+<body>
+    <main class="hero">
+        <section id="login">
+            <div class="img">
+            </div>
+            <div class="formulario">
+                <h1>Login</h1>
+                <p>Seja BEM-VINDO(A) novamente.<br>
+                Faça login para acessar sua conta.</p>
+                <form action="cadastro.php" method="post" autocomplete="off">
+                    <div class="campo">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail">
+                        <label for="iemail">E-mail</label>
+                    </div><!--campo-->
+                    <div class="campo">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua Senha" required class="campo">
+                        <label for="isenha">Senha</label>
+                    </div><!--campo-->
+                    <input type="submit" value="Entrar" checked class="entrar">
+                    <a href="#"class="botao">Esqueci minha senha</a >
+                </form>
+            </div><!--formulario-->
+        </section><!--login-->
+    </main><!--hero-->
+</body>
+</html>
+
